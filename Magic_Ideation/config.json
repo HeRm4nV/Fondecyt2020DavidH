@@ -1,11 +1,11 @@
 {
     "cognitive_atlas_task_id": "",
-    "instructions":"Responder preguntas de Magic_Ideation_experiment",
+    "instructions":"Responder preguntas de Magical_Ideation_experiment",
     "description":"",
     "url":"",
     "contributors": [""],
-    "exp_id": "Magic_Ideation_experiment",
-    "name": "Magic_Ideation_experiment",
+    "exp_id": "Magical_Ideation_experiment",
+    "name": "Magical_Ideation_experiment",
     "reference": [""],
     "template": "jspsych",
     "time": 10
