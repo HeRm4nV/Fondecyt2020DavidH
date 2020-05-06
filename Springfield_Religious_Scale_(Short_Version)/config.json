@@ -1,0 +1,12 @@
+{
+    "cognitive_atlas_task_id": "",
+    "instructions":"Responder preguntas de Springfield_Religious_Scale_(Short_Version)_experiment",
+    "description":"",
+    "url":"",
+    "contributors": [""],
+    "exp_id": "Springfield_Religious_Scale_(Short_Version)_experiment",
+    "name": "Springfield_Religious_Scale_(Short_Version)_experiment",
+    "reference": [""],
+    "template": "jspsych",
+    "time": 10
+}

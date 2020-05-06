@@ -1,0 +1,12 @@
+{
+    "cognitive_atlas_task_id": "",
+    "instructions":"Responder preguntas de Santa_Clara_Questionnaire_experiment",
+    "description":"",
+    "url":"",
+    "contributors": [""],
+    "exp_id": "Santa_Clara_Questionnaire_experiment",
+    "name": "Santa_Clara_Questionnaire_experiment",
+    "reference": [""],
+    "template": "jspsych",
+    "time": 10
+}
