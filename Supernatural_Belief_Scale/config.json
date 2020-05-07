@@ -1,0 +1,12 @@
+{
+    "cognitive_atlas_task_id": "",
+    "instructions":"Responder preguntas de Supernatural_Belief_Scale_experiment",
+    "description":"",
+    "url":"",
+    "contributors": [""],
+    "exp_id": "Supernatural_Belief_Scale_experiment",
+    "name": "Supernatural_Belief_Scale_experiment",
+    "reference": [""],
+    "template": "jspsych",
+    "time": 10
+}
