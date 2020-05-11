@@ -109,7 +109,7 @@ jsPsych.plugins['html-slider-response'] = (function() {
       html += 'width:'+trial.slider_width+'px;';
     }
     html += '">';
-    html += '<input type="range" value="'+trial.start+'" min="'+trial.min+'" max="'+trial.max+'" step="'+trial.step+'" style="width: 100%;" id="jspsych-html-slider-response-response"></input>';
+    html += '<input type="range" value="'+trial.start+'" min="'+trial.min+'" max="'+trial.max+'" step="'+trial.step+'" style="width: 90%;" id="jspsych-html-slider-response-response" class="custom-range"></input> <span class="font-weight-bold text-primary ml-2 valueSpan" style="vertical-align: top"></span>';
     html += '<div>'
     for(var j=0; j < trial.labels.length; j++){
       var width = 100/(trial.labels.length-1);
@@ -131,11 +131,22 @@ jsPsych.plugins['html-slider-response'] = (function() {
 
     display_element.innerHTML = html;
 
+    $(document).ready(function() {
+
+      const $valueSpan = $('.valueSpan');
+      const $value = $('#jspsych-html-slider-response-response');
+      $valueSpan.html($value.val());
+      $value.on('input change', () => {
+
+        $valueSpan.html($value.val());
+      });
+    });
+
     var response = {
       rt: null,
       response: null
     };
-    
+
     if(trial.require_movement){
       display_element.querySelector('#jspsych-html-slider-response-response').addEventListener('change', function(){
         display_element.querySelector('#jspsych-html-slider-response-next').disabled = false;
