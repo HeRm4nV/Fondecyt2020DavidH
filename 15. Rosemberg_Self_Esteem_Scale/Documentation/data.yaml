@@ -1,0 +1,95 @@
+---
+- test configuration:
+    test_name: Rosenberg Scale
+    order: sequential
+    scales:
+      Agreement:
+        - Muy en desacuerdo
+        - En desacuerdo
+        - De acuerdo
+        - Muy de acuerdo
+
+- initial:
+    type: fullscreen
+    arguments:
+      text: El experimento entrará en modo pantalla completa
+
+- Instructions:
+    type: instruction  # Only a piece of text
+    arguments:
+      title: Escala de autoestima de Rosenberg
+      text: Por favor, responda las siguientes preguntas.
+      questions_mode: sequential # select mode of the next questions
+    tags:
+      - instruction
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 1. Siento que soy una persona digna de aprecio, al menos en igual medida que los demás.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 2. Creo que tengo un bueno número de cualidades.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 3. En general, me inclino a pensar que soy un fracasado/a.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 4. Soy capaz de hacer las cosas tan bien como la mayoría de la gente.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 5. Siento que no tengo muchos motivos para sentirme orgulloso/a de mi.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 6. Tengo una actitud positiva hacia mí mismo/a.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 7. En general, estoy satisfecho conmigo mismo/a.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 8. Desearía valorarme más a mi mismo/a.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 9. A veces me siento verdaderamente inútil.
+      orientation: horizontal
+      choices: Agreement
+
+- Rosenberg_Scale:
+    type: multi choice
+    arguments:
+      text: 10. A veces pienso que no soy bueno/a para nada.
+      orientation: horizontal
+      choices: Agreement
+

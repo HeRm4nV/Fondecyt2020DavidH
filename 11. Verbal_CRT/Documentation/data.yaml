@@ -1,0 +1,70 @@
+---
+- test configuration:
+    test_name: Verbal CRT
+    order: sequential
+    scales:
+      None
+
+- initial:
+    type: fullscreen
+    arguments:
+      text: El experimento entrará en modo pantalla completa
+
+- Instructions:
+    type: instruction  # Only a piece of text
+    arguments:
+      title: CRT Verbal
+      text: En las siguientes páginas vas a ver varios ítems que difieren en dificultad. Responde todos los que puedas.
+      questions_mode: sequential # select mode of the next questions
+    tags:
+      - instruction
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: '1. El papá de María tiene 5 hijas y ningún hijo: Nana, Nene, Nini, Nono ¿Cuál es probablemente el nombre de la quinta hija?'
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 2. Si estuvieras corriendo una carrera y pasarás a la persona en segundo lugar ¿En qué lugar quedarías?
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 3. En una noche de tormenta un avión despega desde Nueva York. La tormenta empeora y el avión se estrella. La mitad cae en los Estados Unidos y la otra mitad en Canadá ¿En qué país enterrarías a los sobrevivientes?
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 4. Un mono, una ardilla, y un pájaro están haciendo una carrera a la punta de un manzano ¿Quién obtendrá el plátano primero? ¿El mono, la ardilla o el pájaro?
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 5. En una casa de un piso color rojo, había una persona roja, un gato rojo, un pez rojo, un computador rojo, una silla roja, una tabla roja, un teléfono rojo, una ducha roja ¡Todo era de color rojo! ¿De qué color son probablemente las escaleras?
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 6. ¿Qué número de cada animal puso Moisés en el arca?
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 7. El viento fluye en dirección oeste. Un tren eléctrico viaja hacia el este ¿En qué dirección cardinal viaja el humo de la locomotora?
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 8. Si tienes solo un fósforo y caminas a una habitación oscura donde hay aceite de lámpara, un periódico y madera ¿Qué cosa prenderías primero?
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 9. ¿Sería ético que un hombre se casara con la hermana de su viuda?
+
+- Verbal_CRT:
+    type: text
+    arguments:
+      text: 10. ¿Cuál de las oraciones es correcta? a) ‘La yema del huevo son blancas’ o b) ‘La yema del huevo es blanca’

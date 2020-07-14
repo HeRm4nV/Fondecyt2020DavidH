@@ -1,0 +1,12 @@
+{
+    "cognitive_atlas_task_id": "",
+    "instructions":"Responder preguntas de Spiritual_Wellness_Questionnarie_experiment",
+    "description":"",
+    "url":"",
+    "contributors": [""],
+    "exp_id": "Spiritual_Wellness_Questionnarie_experiment",
+    "name": "Spiritual_Wellness_Questionnarie_experiment",
+    "reference": [""],
+    "template": "jspsych",
+    "time": 10
+}

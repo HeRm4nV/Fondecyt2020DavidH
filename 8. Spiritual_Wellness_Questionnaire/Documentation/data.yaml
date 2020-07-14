@@ -1,0 +1,307 @@
+---
+- test configuration:
+    test_name: Spiritual Wellness Questionnarie
+    order: sequential
+    scales:
+      None
+
+- initial:
+    type: fullscreen
+    arguments:
+      text: El experimento entrará en modo pantalla completa
+
+- Instructions:
+    type: instruction  # Only a piece of text
+    arguments:
+      title: Cuestionario de bienestar espiritual
+      text: Por favor, responda las siguientes preguntas.
+      questions_mode: sequential # select mode of the next questions
+    tags:
+      - instruction
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 1. Siento amor por otras personas.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 2. Siento una relación personal con lo Divino / Dios.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 3. Siento perdón hacia los demás.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 4. Siento una conexión con la naturaleza.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 5. Siento un sentido de identidad.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 6. Adoro al Divino / al Creador.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 7. Siento asombro por una vista impresionante.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 8. Siento confianza entre las personas.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 9. Siento autoconciencia.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 10. Siento unidad con la naturaleza.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 11. Siento unidad con lo Divino / Dios.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 12. Siento armonía con el medio ambiente.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 13. Siento paz con lo Divino / Dios.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 14. siento alegría en la vida.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 15. Siento que la oración enriquece mi vida.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 16. siento paz interior.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 17. Siento respeto por los demás.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 18. Siento sentido en la vida.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 19. Siento amabilidad hacia otras personas.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 20. Siento una sensación de "magia" en el medio ambiente.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 21. Siento una conexión entre mí y los demás.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 22. Tengo una sensación de asombro en la naturaleza.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 23. Siento que vivo en armonía con los demás.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 24. Me siento en armonía con la naturaleza.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 25. siento fuerza interior.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+
+- Spiritual_Wellness_Questionnarie:
+    type: slider
+    arguments:
+      text: 26. Siento que tengo confianza en las personas.
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Muy Bajo","Muy Alto"]
+      slider_width: 500
+

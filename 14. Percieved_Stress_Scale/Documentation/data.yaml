@@ -1,0 +1,123 @@
+---
+- test configuration:
+    test_name: Percieved Stress Scale
+    order: sequential
+    scales:
+      Times:
+        - Nunca
+        - Casi nunca
+        - De vez en cuando
+        - A menudo
+        - Muy a menudo
+
+- initial:
+    type: fullscreen
+    arguments:
+      text: El experimento entrará en modo pantalla completa
+
+- Instructions:
+    type: instruction  # Only a piece of text
+    arguments:
+      title: Escala de estrés percibido 
+      text: Por favor, responda las siguientes preguntas.
+      questions_mode: sequential # select mode of the next questions
+    tags:
+      - instruction
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 1. En el último mes, ¿con qué frecuencia ha estado afectado por algo que ha ocurrido inesperadamente?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 2. En el último mes, ¿con qué frecuencia se ha sentido incapaz de controlar las cosas importantes en su vida?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 3. En el último mes, ¿con qué frecuencia se ha sentido nervioso o estresado?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 4. En el último mes, ¿con qué frecuencia ha manejado con éxito los pequeños problemas irritantes de la vida?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 5. En el último mes, ¿con qué frecuencia ha sentido que ha afrontado efectivamente los cambios importantes que han estado ocurriendo en su vida?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 6. En el último mes, ¿con qué frecuencia ha estado seguro sobre su capacidad para manejar sus problemas personales? 
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 7. En el último mes, ¿con qué frecuencia ha sentido que las cosas le van bien?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 8. En el último mes, ¿con qué frecuencia ha sentido que no podía afrontar todas las cosas que tenía que hacer?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 9. En el último mes, ¿con qué frecuencia ha podido controlar las dificultades de su vida?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 10. En el último mes, ¿con qué frecuencia se ha sentido al control de todo?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 11. En el último mes, ¿con qué frecuencia ha estado enfadado porque las cosas que le han ocurrido estaban fuera de su control?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 12. En el último mes, ¿con qué frecuencia ha pensado sobre las cosas que le quedan por lograr?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 13. En el último mes, ¿con qué frecuencia ha podido controlar la forma de pasar el tiempo?
+      orientation: horizontal
+      choices: Times
+
+- Percieved_Stress_Scale:
+    type: multi choice
+    arguments:
+      text: 14. En el último mes, ¿con qué frecuencia ha sentido que las dificultades se acumulan tanto que no puede superarlas?
+      orientation: horizontal
+      choices: Times

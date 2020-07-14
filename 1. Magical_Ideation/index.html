@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class=''>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name="robots" content="noindex">
+  <title>Magical Ideation</title>
+  <!-- Documento CSS principal -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- JQuery -->
+  <script src="jquery.min.js"></script>
+  <!-- Libreria principal JsPsych -->
+  <script src="jsPsych-6/jspsych.js"></script>
+  <!-- Plugins -->
+  <script src="jsPsych-6/plugins/jspsych-instructions.js"></script>
+  <script src="jsPsych-6/plugins/jspsych-fullscreen.js"></script>
+  <script src="jsPsych-6/plugins/jspsych-survey-multi-choice-vertical.js"></script>
+
+  <script src='experiment.js'></script>
+
+  <script>
+    function saveData(name, data){
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', 'https://hooks.zapier.com/hooks/catch/7975529/oz4mwww/'); // 'write_data.php' is the path to the php file described above.
+      xhr.setRequestHeader('Content-Type', 'application/json');
+      xhr.send(JSON.stringify({filename: name, filedata: data}));
+    }
+
+    $(document).ready(function() {
+
+      jsPsych.init({
+        timeline: questions,
+        fullscreen: true,
+
+        on_finish: function(data) {
+
+          // Serialize the data
+          var promise = new Promise(function(resolve, reject) {
+            var data = jsPsych.data.get().json();
+            resolve(data);
+          })
+
+          promise.then(function(data) {
+
+            console.log(data);
+            $.ajax({
+              type: "POST",
+              url: 'https://hooks.zapier.com/hooks/catch/7975529/oz4mwww/',
+              data: JSON.stringify({filename: "Magical Ideation", filedata: data}),
+              success: function() {
+                document.location = "http://cscn.uai.cl/"
+              },
+              dataType: "application/json",
+
+              // Endpoint not running, local save
+              error: function(err) {
+
+                if (err.status == 200) {
+                  document.location = "http://cscn.uai.cl/";
+                } else {
+                  // If error, assue local save
+                  if (window.self !== window.top) {
+                    parent.postMessage({
+                      csv: jsPsych.data.get().csv(),
+                      name: 'Magical_Ideation_results'
+                    }, '*');
+                  } else {
+                    //saveData("experiment_data", jsPsych.data.get().csv());
+                    jsPsych.data.get().localSave('csv', 'Magical_Ideation_results.csv');
+                  }
+                }
+              }
+            })
+          })
+        }
+      })
+    })
+  </script>
+</body>
+
+</html>

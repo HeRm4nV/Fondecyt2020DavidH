@@ -1,0 +1,461 @@
+---
+- test configuration:
+    test_name: Racional Experiental Inventory
+    order: sequential
+    scales:
+      None
+
+- initial:
+    type: fullscreen
+    arguments:
+      text: El experimento entrará en modo pantalla completa
+
+- Instructions:
+    type: instruction  # Only a piece of text
+    arguments:
+      title: Inventario Racional-Experiencial
+      text: Por favor, responda las siguientes preguntas.
+      questions_mode: sequential # select mode of the next questions
+    tags:
+      - instruction
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 1. No soy tan bueno/a resolviendo problemas complicados.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 2. Si me basara en mis corazonadas, me equivocaría seguido.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 3. Prefiero los problemas complejos antes que los simples.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 4. Generalmente, no dependo de mis sentimientos para tomar decisiones.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 5. No tengo problema en pensar las cosas con claridad.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 6. Cuando se trata de confiar en la gente, usualmente me baso en mis corazonadas.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 7. Pensar no es para mi una actividad agradable.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 8. Me gusta confiar en mis primeras impresiones.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 9. No soy una persona que piense de manera muy analítica.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 10. Yo confío en mis corazonadas.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 11. Disfruto resolviendo problemas que requieren pensar mucho.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 12. Creo que es una tontería tomar decisiones basadas en los sentimientos.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 13. Sospecho que mis corazonadas a veces son inadecuadas y otras veces adecuadas.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 14. Usualmente tengo razones claras y explicables para mis decisiones.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 15. Para mí es suficiente conocer la respuesta sin tener que entender el razonamiento detrás.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 16. No quisiera depender de alguien que se describa a sí mismo como intuitivo.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 17. generalmente usar la lógica me sirve para resolver mis problemas.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 18. Disfruto de los desafíos intelectuales.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 19. Generalmente, puedo sentir cuando una persona está equivocada o no a pesar de no poder explicar cómo lo sé.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 20. Frecuentemente sigo mi instinto cuando decido qué hacer.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 21. Probablemente, mis juicios apresurados no son tan buenos como los de la mayoría de la gente.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 22. Razonar las cosas cuidadosamente, no es uno de mis puntos fuertes.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 23. No me gustan las situaciones en las cuales tengo que confiar en mi intuición.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 24. Trato de evitar situaciones que requieren pensar en profundidad sobre algo.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 25. Confío en mis sentimientos iniciales sobre la gente.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 26. Pienso de manera lógica.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 27. Pienso que no es una buena idea confiar en las propias intuiciones para tomar decisiones importantes.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 28. No me gusta tener que pensar mucho.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 29. No tengo muy buena intuición.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 30. No soy muy bueno resolviendo problemas que requieren un análisis lógico minucioso.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 31. Creo que hay veces en que uno debería confiar en su intuición.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 32. Disfruto pensando en términos abstractos.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 33. Generalmente mis intuiciones me sirven para resolver mis problemas.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 34. No razono bajo presión.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 35. Tiendo a usar mi corazón como guía para mis acciones.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 36. Pensar mucho y por un tiempo prolongado sobre algo me da poca satisfacción.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 37. Casi nunca me equivoco cuando escucho mis sentimientos más profundos para encontrar una respuesta.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 38. Soy mucho mejor que la mayoría de la gente para resolver las cosas de forma lógica.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 39. La intuición puede ser una forma útil para resolver problemas.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+
+- Racional_Experiental_Inventory:
+    type: slider
+    arguments:
+      text: 40. Me gustaría mucho aprender nuevas formas de pensar.      
+      min: 1
+      max: 5
+      start: 3
+      step: 1
+      labels: ["Totalmente Falso","Totalmente Cierto"]
+      slider_width: 500
+

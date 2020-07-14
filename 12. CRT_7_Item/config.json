@@ -1,0 +1,12 @@
+{
+    "cognitive_atlas_task_id": "",
+    "instructions":"Responder preguntas de CRT_7_experiment",
+    "description":"",
+    "url":"",
+    "contributors": [""],
+    "exp_id": "CRT_7_experiment",
+    "name": "CRT_7_experiment",
+    "reference": [""],
+    "template": "jspsych",
+    "time": 10
+}

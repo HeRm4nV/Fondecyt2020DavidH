@@ -1,0 +1,12 @@
+{
+    "cognitive_atlas_task_id": "",
+    "instructions":"Responder preguntas de Racional_Experiental_Inventory_experiment",
+    "description":"",
+    "url":"",
+    "contributors": [""],
+    "exp_id": "Racional_Experiental_Inventory_experiment",
+    "name": "Racional_Experiental_Inventory_experiment",
+    "reference": [""],
+    "template": "jspsych",
+    "time": 10
+}
