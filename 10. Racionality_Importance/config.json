@@ -1,0 +1,12 @@
+{
+    "cognitive_atlas_task_id": "",
+    "instructions":"Responder preguntas de Racionality_Importance_experiment",
+    "description":"",
+    "url":"",
+    "contributors": [""],
+    "exp_id": "Racionality_Importance_experiment",
+    "name": "Racionality_Importance_experiment",
+    "reference": [""],
+    "template": "jspsych",
+    "time": 10
+}
